@@ -35,7 +35,7 @@ function App ()
         </div>
         <h2 className="font-semibold text-3xl">Hey ! ⛅</h2>
         <p className="text-xm mt-1  mb-3">Do you want to know the weather Report :)</p>
-        <input onChange={handleChange} className="rounded-md h-10 w-full text-1xl p-2 mt-3 mb-5 outline-none" placeholder="Enter Your City Name"></input>
+        <input onChange={handleChange} className="rounded-md h-10 w-full text-1xl p-2 mt-3 mb-4 outline-none" placeholder="Enter Your City Name"></input>
         <br/>
         <button onClick={getweather} className="bg-[#070716] font-semibold text-white rounded-full px-7 p-3 mt-5 mb-5 text-md hover:text-yellow-500" >Get Report ⚡</button>
 
