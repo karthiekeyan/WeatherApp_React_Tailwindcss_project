@@ -40,13 +40,13 @@ function App ()
         <button onClick={getweather} className="bg-[#070716] font-semibold text-white rounded-full px-7 p-3 mt-5 mb-5 text-md hover:text-yellow-500" >Get Report ⚡</button>
 
         <div className="flex w-full justify-between ">
-            <div style={{"background-image": "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}} className="px-3 py-1 h-[90px] w-[100px] rounded-[20px] ">
+            <div style={{"background-image": "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}} className="px-3 py-1 h-[100px] w-[120px] rounded-[20px] ">
                 <p className="text-md mt-1 font-semibold text-center"> 🌡️<br/> Degree <br/> {deg}</p>
             </div>
-            <div style={{"background-image": "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}} className="px-3 py-1 h-[90px] w-[100px] rounded-[20px] ">
+            <div style={{"background-image": "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}} className="px-3 py-1 h-[100px] w-[120px] rounded-[20px] ">
                 <p className="text-md mt-1 font-semibold text-center "> 🌏<br/> City <br/> {city}</p>
             </div>
-            <div style={{"background-image": "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}} className="px-3 py-1 h-[90px] w-[100px] rounded-[20px] ">
+            <div style={{"background-image": "linear-gradient(to top, #d9afd9 0%, #97d9e1 100%)"}} className="px-3 py-1 h-[100px] w-[120px] rounded-[20px] ">
                 <p className="text-md mt-1 font-semibold text-center"> 🌦️<br/> Weather <br/> {desc}</p>
         </div>
     </div>
